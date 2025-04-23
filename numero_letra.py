@@ -23,7 +23,7 @@ def numero_letra(numero: int):
         numero2, restante = divmod(numero2 - 1, 26)
         resultado.append(string.ascii_uppercase[restante])
     
-    return print("".join(resultado))
+    return print("".join(reversed(resultado)))
 
 
 numero_letra(28)
